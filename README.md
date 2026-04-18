@@ -230,6 +230,8 @@ where $f(x) \sim x^{1/4}$ for $x \ll 1$ (growth) and $f(x) \to \text{const}$ for
 
 This repository implements core concepts from the Critical Phenomena course, demonstrating how symmetries, scaling, and universality emerge in complex non-equilibrium systems. The simulations connect microscopic dynamics to macroscopic critical behavior through renormalization group ideas and scaling theory.
 
+---
+
 ## Author
 
 **A. S. Amari Rabah**
