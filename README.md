@@ -45,11 +45,10 @@ Pure random deposition on a 1D substrate: particles are randomly deposited at ea
 $$w(t) \sim t^\beta, \quad \beta \approx 0.5 \text{ (KPZ class)}$$
 
 **Roughness evolution:**
-```
-varianzasRD.png → w(t) for different system sizes L
-mediasRD.png    → Mean height ⟨h(t)⟩ over time
-ajusteRD.png    → Power-law exponent β ≈ 0.5
-```
+
+| Width vs Time | Mean Height | Power-Law Fit |
+|---|---|---|
+| ![Variance RD](figures/varianzasRD.png) | ![Mean RD](figures/mediasRD.png) | ![Fit RD](figures/ajusteRD.png) |
 
 **Key features:**
 - Continuous roughening over time
@@ -71,13 +70,10 @@ $$w(t) \sim t^\beta, \quad \beta \approx 0.25 \text{ (Edwards-Wilkinson class)}$
 $$\frac{w(t, L)}{w_{\text{sat}}} = f\left(\frac{t}{L^z}\right), \quad z = 2$$
 
 **Result plots:**
-```
-varianzasRDSR.png → w(t) showing smoother growth than RD
-mediasRDSR.png    → Mean height evolution
-ajusteRDSR.png    → β ≈ 0.25 matches theory
-colapsoRDSR.png   → Scaling collapse: w(t)/w_sat vs t/L² 
-                      validates Family-Vicsek form
-```
+
+| Width vs Time | Mean Height | Power-Law Fit | Scaling Collapse |
+|---|---|---|---|
+| ![Variance RDSR](figures/varianzasRDSR.png) | ![Mean RDSR](figures/mediasRDSR.png) | ![Fit RDSR](figures/ajusteRDSR.png) | ![Collapse RDSR](figures/colapsoRDSR.png) |
 
 **Key features:**
 - Smoother interfaces than pure RD due to relaxation
