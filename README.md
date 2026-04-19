@@ -1,5 +1,24 @@
 # Critical and Cooperative Phenomena — Simulations
 
+---
+
+## Repository layout
+
+```
+.
+├── simulations/
+│   ├── random_deposition.py    # Random Deposition (RD) model
+│   ├── surface_relaxation.py   # Random Deposition with Surface Relaxation (RDSR)
+│   └── wetting.py              # Wetting/pinning dynamics model
+├── scripts/
+│   ├── run_rd.py       # RD scaling analysis → figures
+│   ├── run_rdsr.py     # RDSR scaling collapse → figures
+│   └── run_wetting.py  # Wetting transition → figures
+└── figures/            # PNG outputs
+```
+
+---
+
 Python implementations of three core non-equilibrium growth phenomena from the Critical Phenomena and Cooperative Phenomena course, demonstrating universality classes and scaling behavior in interface dynamics.
 
 ## Overview
